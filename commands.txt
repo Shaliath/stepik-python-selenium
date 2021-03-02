@@ -1,0 +1,14 @@
+python3 -m venv <env_name>
+
+source ~/environments/<env_name>/bin/activate
+deactivate
+
+
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+
+Useful links
+
+https://gist.github.com/amatellanes/12136508b816469678c2 - Useful py.test commands.
